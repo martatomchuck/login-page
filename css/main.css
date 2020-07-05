@@ -1,16 +1,16 @@
 * {
     box-sizing: border-box;
-    font-family: 'Montserrat';
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
   }
 
   .container {
     position: relative;
     width: 100%;
-    max-width: 800px;
-    height: 500px;
-    margin: 100px auto;
-    background: #ecf0f1;
+    max-width: 900px;
+    height: 450px;
+    margin: 120px auto;
+    background: #f3f3f3;
     border-radius: 10px;
   }
 
@@ -44,29 +44,31 @@
   }
 
   .btn {
-    width: 130px;
+    width: 120px;
+    height: 40px;
     color: #fff;
-    border-radius: 5px;
     border: none;
     padding: 10px 25px;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 500;
     letter-spacing: .7px;
     text-align: center;
     z-index: 2;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
   }
 
   .btn:hover {
-    opacity: 0.85;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
   }
   
   .btn-primary {  
-    background: #2ecc71;
+    background: #845EC2;
   }
 
   .btn-secondary {
-    background: #0984e3;
+    background: #00C9A7;
   }
 
   input {
@@ -110,7 +112,7 @@
     opacity: 0;
     visibility: 0;
   }
-  z
+  
   #signupChecked:not(:checked) + .form-container input[type="text"]:nth-child(2) {
     opacity: 0;
     visibility: 0;
